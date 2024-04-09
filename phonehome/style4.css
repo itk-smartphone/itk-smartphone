@@ -1,0 +1,94 @@
+.container {
+    margin: 0px 110px;
+    height: 8rem;
+}
+body {
+    margin: 0%;
+}
+.header {
+    background-image: url(../img/baner3.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-line {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.nav-item {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Cormorant", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 22px;
+    font-style: normal;
+    padding-left: 30px;
+}
+.nav-item:hover{
+    color: aqua;
+    transition: color 0.5s linear;
+
+}
+nav {
+   padding-left: 30px;
+}
+.container1 {
+    padding: 40px;
+    text-align: justify;
+    font-size: 20px;
+    background-color:#ededed;
+}
+.container1 {
+    padding: 40px;
+    text-align: justify;
+    font-size: 20px;
+    background-color:#ededed;
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.phonehome {
+    float: right;
+    padding: 10px;
+    height: 300px;
+    width: 70vh;
+}
+button {
+    background-color: #d54bdc;
+    padding: 14px 10px;
+    text-align: center;
+    border: none;
+    margin: 8px 20px;
+    border-radius: 35px;
+    color: #fff;
+    transition: transform .2s;
+    cursor: pointer;
+}
+button:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    padding-left: 10em;
+    padding-top: 9px;
+    padding-bottom: 5px;
+    padding-right: 9em;
+    justify-content: space-between;
+    background-color: #523595;
+    color: #c7c5c5;
+    font-family: "Cormorant", serif;
+    display: flex;
+}
+.footer-header {
+    font-size: 22px;
+}
+.develop {
+    text-align: right;
+    padding-top: 2em; 
+}
+.develop p a{
+    text-decoration: none;
+    color: #c7c5c5;
+}
